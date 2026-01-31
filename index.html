@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Fonts Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="styless.css" />
+
+    <!-- Title icon -->
+    <link rel="shortcut icon" href="LogoMiePedas.png" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mie Pedas</title>
+  </head>
+
+  <body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <div class="loading-box">
+        <div class="spinner"></div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#dashboard" class="logo">
+          <i style="color: red" class="fa-solid fa-pepper-hot"></i>
+          Mie Pedas
+        </a>
+
+        <ul class="nav-menu">
+          <li>
+            <a href="#dashboard" class="active">
+              <i class="fa-solid fa-house"></i> Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="#menu"> <i class="fa-solid fa-bowl-food"></i> Menu </a>
+          </li>
+          <li>
+            <a href="#tentangsaya">
+              <i class="fa-solid fa-address-card"></i> Tentang Kami
+            </a>
+          </li>
+          <li>
+            <a href="#kontak"> <i class="fa-solid fa-phone"></i> Kontak </a>
+          </li>
+        </ul>
+
+        <button class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Overlay Mobile Menu -->
+    <div class="mobile-nav">
+      <ul>
+        <li>
+          <a href="#dashboard"><i class="fa fa-house"></i> Dashboard</a>
+        </li>
+        <li>
+          <a href="#menu"><i class="fa fa-envelope"></i> Menu</a>
+        </li>
+        <li>
+          <a href="#tentangsaya"><i class="fa fa-pen-nib"></i> Tentang Kami</a>
+        </li>
+        <li>
+          <a href="#kontak"><i class="fa fa-envelope"></i> Kontak</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Section Home / Dashboard -->
+    <section class="home-container" id="dashboard">
+      <div class="container-dashboard">
+        <div class="dashboard-left">
+          <h1>
+            Sensasi <span>Pedas</span>
+            yang Bikin Nagih 🔥
+          </h1>
+
+          <p>
+            Mie Pedas dengan racikan bumbu spesial, level pedas bisa kamu
+            tentukan sendiri. Sekali coba, dijamin pengen nambah!
+          </p>
+
+          <div class="dashboard-btn">
+            <a href="#menu" class="btn-primary">
+              <i class="fa-solid fa-bowl-food"></i> Lihat Menu
+            </a>
+            <a href="#kontak" class="btn-outline">
+              <i class="fa-solid fa-phone"></i> Pesan Sekarang
+            </a>
+          </div>
+        </div>
+
+        <div class="dashboard-right">
+          <div class="parallax-wrapper">
+            <img
+              src="GambarMie1.png"
+              class="parallax-img img-main"
+              alt="Mie Pedas"
+            />
+
+            <img
+              src="GambarMieBanner.png"
+              class="parallax-img img-front"
+              alt="Cabai"
+            />
+            <img
+              src="GambarMie3.png"
+              class="parallax-img img-back"
+              alt="Api"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Experience -->
+    <section class="section-home-container experience-section">
+      <div class="home-wrapper experience-wrapper">
+        <div class="experience-text">
+          <h2>
+            Bukan Sekadar Mie,<br />
+            Ini <span>Pengalaman Pedas</span> 🔥
+          </h2>
+
+          <p>
+            Setiap suapan menghadirkan sensasi pedas bertahap, dari hangat di
+            lidah sampai membakar adrenalin.
+          </p>
+
+          <div class="pedas-level">
+            <span>🌶️ Level 1</span>
+            <span>🌶️🌶️ Level 3</span>
+            <span>🌶️🌶️🌶️ Level 5</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Keunggulan -->
+    <section class="section-feature">
+      <div class="feature-wrapper">
+        <div class="feature-header">
+          <h2>Kenapa <span>Mie Pedas</span> Kami?</h2>
+          <p>
+            Bukan cuma pedas, tapi berkualitas dan konsisten di setiap porsi.
+          </p>
+        </div>
+
+        <div class="feature-list">
+          <div class="feature-item">
+            <i class="fa-solid fa-pepper-hot"></i>
+            <h4>Level Pedas Custom</h4>
+            <p>Sesuaikan tingkat pedas sesuai selera dan nyali kamu.</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa-solid fa-bowl-food"></i>
+            <h4>Bumbu Racikan Khusus</h4>
+            <p>Diracik dengan resep rahasia, bukan bumbu instan biasa.</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa-solid fa-clock"></i>
+            <h4>Disajikan Fresh</h4>
+            <p>Mie dimasak langsung setelah dipesan, selalu hangat.</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa-solid fa-star"></i>
+            <h4>Favorit Pelanggan</h4>
+            <p>Sudah dicoba ratusan pelanggan dan terus direkomendasikan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-container" id="menu">
+      <div class="menu-wrapper">
+        <div class="menu-header">
+          <h2>Menu <span>Andalan</span></h2>
+          <p>Pilihan mie pedas favorit dengan level pedas sesuai selera.</p>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-card">
+            <img src="GambarMie1.png" alt="Mie Pedas Original" />
+            <div class="menu-info">
+              <h4>Mie Pedas Original</h4>
+              <p>Pedas gurih dengan bumbu racikan spesial.</p>
+              <span class="menu-level">🌶️ Level 1–3</span>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <img src="GambarMie2.png" alt="Mie Pedas Extra Hot" />
+            <div class="menu-info">
+              <h4>Mie Pedas Extra Hot</h4>
+              <p>Untuk kamu yang suka tantangan pedas.</p>
+              <span class="menu-level">🌶️ Level 3–5</span>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <img src="GambarMie3.png" alt="Mie Pedas Ayam" />
+            <div class="menu-info">
+              <h4>Mie Pedas Ayam</h4>
+              <p>Perpaduan mie pedas dan topping ayam juicy.</p>
+              <span class="menu-level">🌶️ Level 2–4</span>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <img src="GambarMie4.jpeg" alt="Mie Pedas Neraka" />
+            <div class="menu-info">
+              <h4>Mie Pedas Neraka</h4>
+              <p>Level tertinggi, hanya untuk yang bernyali.</p>
+              <span class="menu-level">🔥 Level 5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section tentangsaya -->
+    <section class="tentangsaya-container" id="tentangsaya">
+      <div class="tentangsaya-wrapper">
+        <div class="tentangsaya-header">
+          <h2>Tentang <span>Kami</span></h2>
+          <p>Bukan sekadar mie pedas, tapi pengalaman rasa yang bikin nagih.</p>
+        </div>
+
+        <div class="tentangsaya-content">
+          <div class="tentangsaya-text">
+            <h3>Berawal dari Kecintaan pada Rasa Pedas 🔥</h3>
+            <p>
+              Kami memulai usaha ini dari satu dapur kecil dengan satu tujuan:
+              menciptakan mie pedas dengan cita rasa khas yang berbeda dari yang
+              lain. Setiap racikan bumbu dibuat dengan proses yang matang dan
+              penuh perhitungan.
+            </p>
+
+            <p>
+              Kami percaya bahwa makanan bukan hanya soal kenyang, tetapi juga
+              soal pengalaman. Itulah mengapa setiap level pedas dirancang untuk
+              memberikan sensasi yang berkesan di setiap suapan.
+            </p>
+
+            <div class="tentangsaya-highlight">
+              <span>✔ Bumbu Racikan Sendiri</span>
+              <span>✔ Level Pedas Fleksibel</span>
+              <span>✔ Bahan Berkualitas</span>
+            </div>
+          </div>
+
+          <div class="tentangsaya-card">
+            <h4>Kenapa Memilih Kami?</h4>
+
+            <ul>
+              <li>
+                <strong>Rasa Konsisten</strong>
+                <p>Setiap porsi dibuat dengan standar rasa yang sama.</p>
+              </li>
+
+              <li>
+                <strong>Pedas Bisa Dipilih</strong>
+                <p>Dari santai sampai level neraka.</p>
+              </li>
+
+              <li>
+                <strong>Disukai Banyak Pelanggan</strong>
+                <p>Sudah menjadi favorit para pecinta pedas.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section kontak -->
+    <section class="kontak-container" id="kontak">
+      <div class="kontak-wrapper">
+        <div class="kontak-header">
+          <h2>Hubungi <span>Kami</span></h2>
+          <p>
+            Punya pertanyaan, ingin pesan, atau kerja sama? Jangan ragu untuk
+            menghubungi kami.
+          </p>
+        </div>
+
+        <div class="kontak-content">
+          <!-- INFO KONTAK -->
+          <div class="kontak-info">
+            <h3>Kontak & Informasi</h3>
+
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Tapan, Pesisir Selatan</span>
+              </li>
+
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <span>+62 812 6777 9174</span>
+              </li>
+
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <span>Otriulandari@gmail.com</span>
+              </li>
+
+              <li>
+                <i class="fa-solid fa-clock"></i>
+                <span>Buka setiap hari · 10.00 – 00.00</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- FORM KONTAK -->
+          <form class="kontak-form">
+            <h3>Kirim Pesan</h3>
+
+            <div class="form-group">
+              <input type="text" placeholder="Nama Lengkap" required />
+            </div>
+
+            <div class="form-group">
+              <input type="email" placeholder="Email" required />
+            </div>
+
+            <div class="form-group">
+              <textarea
+                placeholder="Pesan Anda..."
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer-container">
+      <div class="footer-wrapper">
+        <!-- BRAND -->
+        <div class="footer-brand">
+          <h3><i class="fa-solid fa-pepper-hot"></i> Mie Pedas</h3>
+          <p>
+            Sensasi pedas yang bikin nagih. Dibuat dari racikan bumbu spesial
+            dengan level pedas sesuai selera kamu.
+          </p>
+        </div>
+
+        <!-- NAV -->
+        <div class="footer-nav">
+          <h4>Menu</h4>
+          <ul>
+            <li>
+              <a href="#dashboard">
+                <i class="fa-solid fa-house"></i> Dashboard
+              </a>
+            </li>
+
+            <li>
+              <a href="#menu"> <i class="fa-solid fa-bowl-food"></i> Menu </a>
+            </li>
+
+            <li>
+              <a href="#tentangsaya">
+                <i class="fa-solid fa-user"></i> Tentang Kami
+              </a>
+            </li>
+
+            <li>
+              <a href="#kontak"> <i class="fa-solid fa-phone"></i> Kontak </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- KONTAK -->
+        <div class="footer-contact">
+          <h4>Kontak</h4>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Tapan, Pesisir Selatan</li>
+            <li><i class="fa-solid fa-phone"></i> +62 812 6777 9174</li>
+            <li><i class="fa-solid fa-envelope"></i> Otriulandari@gmail.com</li>
+          </ul>
+        </div>
+
+        <!-- SOSIAL -->
+        <div class="footer-social">
+          <h4>Ikuti Kami</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/otriulandari_?igsh=MWw5dmNhbGJ1cjYxaw=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://web.facebook.com/otriulandari.otriulandari/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/@audreyy01_0?_r=1&_t=ZS-93WmLM1GjHb"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer-bottom">
+        <p>© 2026 Mie Pedas. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts.js -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
